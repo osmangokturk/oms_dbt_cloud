@@ -1,7 +1,7 @@
 # Quick About
 A demo for E2E dbt Cloud project  with Snowflake, GitHub & PowerBI
 
-![Alt text for the image](picture1.jpg.png)
+![Alt text for the image](picture1.jpeg.png)
 
 # dbt Cloud  account creation, connection to Snowflake
 
