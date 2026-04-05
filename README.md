@@ -5,7 +5,7 @@ A demo for E2E dbt Cloud project  with snowflake, GittHub & PowerBI
 
 # 1-dbt Cloud  account creation & connection to the snowflake account and GitHub account
 
-- visit dbt cloude web site and create an account with your email and password. 
+- Visit dbt cloude web site and create an account with your email and password. 
 Then create a connectionw that will use the  credentials of snowflake database, warehouse, database, warehose.... 
 
 # dbt Cloud  account creation, connection to Snowflake
@@ -14,17 +14,15 @@ Visit dbt cloude web site and create an account with your email and password. Th
 Once the connection is saved. 
 - Introduce your GitHub repo  to DBT Cloud. This process may invoke several  authentication   processes to make a connection between dbt and GitHub. 
 
-
 - introduce your github repo  to dbt cloude. This process may invoke several  authenticaiton   processes
  to make connection between dbt and github. 
-
 
 ## 1.b) initialization of the first dbt project
 
 - on dbt cloud GUI, on the left presse "initialize new dbt project" button to create the dbt project. 
 This will create a project folder structure similar to what we have on dbt core (CLI).
 
--When you commit and sync the dbt, it will be in syncrony with the main branch of the repo, 
+- When you commit and sync the dbt, it will be in syncrony with the main branch of the repo, 
 that is to say, if any model is modified in the repo, or a new project folder is introduced it will be able to run it.
 
 ## 1.c)  example models
@@ -48,7 +46,7 @@ You will be able to see the result either on the dbt or on the snowflake,
 While dbt Core shows results via CLI logs and artifacts (target/artifact run_sresult.json) and documentation site (dbt docs generate).
 
 -first model to create a table of two rows that is created with two SELECT statements with UNION ALL. 
--one row is on purpose populated with NULL value in id. 
+- one row is on purpose populated with NULL value in id. 
 -it is materialized as table. 
 
 - second model has no materialized statement, hence by default it is view. 
@@ -72,7 +70,6 @@ However, this is true only for build, which runs  models + test. if "run" is sel
 - dbt cloude provide  buttons to commit or to create new branches for the new features.
  Once the work is committed to the main or the feature branch, then  on the github we can
   merge the branche to the main via pull requests. 
--
 
 # 3- Importing tables from Snowflake into PowerBI 
 - we choose PowerBI as the tool to  for BI. 
