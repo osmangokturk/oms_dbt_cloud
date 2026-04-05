@@ -1,27 +1,24 @@
 # Quick About
-<<<<<<< HEAD
+
 A demo for E2E dbt Cloud project  with snowflake, GittHub & PowerBI 
+![Alt text for the image](picture1.jpeg.png)
 
 # 1-dbt Cloud  account creation & connection to the snowflake account and GitHub account
 
 - visit dbt cloude web site and create an account with your email and password. 
 Then create a connectionw that will use the  credentials of snowflake database, warehouse, database, warehose.... 
-=======
-A demo for E2E dbt Cloud project  with Snowflake, GitHub & PowerBI
-
-![Alt text for the image](picture1.jpeg.png)
 
 # dbt Cloud  account creation, connection to Snowflake
 
 Visit dbt cloude web site and create an account with your email and password. Then create a connection that will use the  credentials of snowflake database, warehouse, database, warehouse.... 
 Once the connection is saved. 
 - Introduce your GitHub repo  to DBT Cloud. This process may invoke several  authentication   processes to make a connection between dbt and GitHub. 
->>>>>>> b96f560fc847bbc8c369a0fe4c836ec5fdad77fa
+
 
 - introduce your github repo  to dbt cloude. This process may invoke several  authenticaiton   processes
  to make connection between dbt and github. 
 
-<<<<<<< HEAD
+
 ## 1.b) initialization of the first dbt project
 
 - on dbt cloud GUI, on the left presse "initialize new dbt project" button to create the dbt project. 
@@ -35,7 +32,7 @@ that is to say, if any model is modified in the repo, or a new project folder is
  and a schema config  for descriptions and  testing. 
 - dbt cloude provide bunch of new menus and features to use  dbt. Like buil +test+Upstream (or Dwonstream). 
  These are equivalent to commands with various options and flages in CLI
-=======
+
 - on dbt cloud GUI, on the left, press the "Initialize new DBT project" button. 
 This will create a project folder structure similar to what we have on dbt core (CLI). 
 
@@ -45,13 +42,11 @@ This will create a project folder structure similar to what we have on dbt core 
 - These commands or features will create tables or run tests. You will be able to see the result either on the dbt or on the snowflake 
 
 ## Committing to the repo 
->>>>>>> b96f560fc847bbc8c369a0fe4c836ec5fdad77fa
 
 - these commands or features will created tables or run tests .
 You will be able to see the result either on the dbt or on the snowflake, 
 While dbt Core shows results via CLI logs and artifacts (target/artifact run_sresult.json) and documentation site (dbt docs generate).
 
-<<<<<<< HEAD
 -first model to create a table of two rows that is created with two SELECT statements with UNION ALL. 
 -one row is on purpose populated with NULL value in id. 
 -it is materialized as table. 
@@ -87,12 +82,10 @@ However, this is true only for build, which runs  models + test. if "run" is sel
 - once data is  in PowerBI then we can create the charts or dashboards. 
 
 
-=======
-# Using the created table or view for BI 
+## 3.b) Using the created table or view for BI 
 - We choose Power BI as the tool to  for BI. 
 - In the get data menu on PoserBI, we select Snowflake, and we use credentials as server and warehouse. An authentication method like Single Sign-On will provide the connection between Snowflake and Power BI. 
 - Once the connection is established, you can choose any table or  view from Snowflake to import/DirectQuery into Power BI.  
 - These are types of importing data  into Power BI. 
 - Once the data is  in PowerBI then we can create the charts or dashboards. 
 
->>>>>>> b96f560fc847bbc8c369a0fe4c836ec5fdad77fa
